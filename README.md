@@ -7,7 +7,7 @@ Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mixedcca-feedstock/blob/main/LICENSE.txt)
 
-Summary: Semi-parametric approach for sparse canonical correlation analysis which can handle mixed data types: continuous, binary and truncated continuous. Bridge functions are provided to connect Kendall's tau to latent correlation under the Gaussian copula model. The methods are described in Yoon, Carroll and Gaynanova (2020) <doi:10.1093/biomet/asaa007> and Yoon, Mueller and Gaynanova (2020) <doi:10.1080/10618600.2021.1882468>.
+Summary: Semi-parametric approach for sparse canonical correlation analysis which can handle mixed data types: continuous, binary and truncated continuous. Bridge functions are provided to connect Kendall's tau to latent correlation under the Gaussian copula model. The methods are described in Yoon, Carroll and Gaynanova (2020) <doi:10.1093/biomet/asaa007> and Yoon, Mueller and Gaynanova (2021) <doi:10.1080/10618600.2021.1882468>.
 
 Current build status
 ====================
@@ -27,13 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16897&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16897&branchName=main">
@@ -41,10 +34,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.0</td>
+              <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16897&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -55,17 +48,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_r_base4.0</td>
+              <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16897&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=win&configuration=win_64_r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_r_base4.1</td>
+              <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16897&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=win&configuration=win_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-mixedcca-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
                 </a>
               </td>
             </tr>
